@@ -1,0 +1,26 @@
+﻿@model BookStore.Models.ShopCart
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td><p>@item.Book.Name</p></td>
+                    <td><p style="padding-left:20px;">@item.Quantity</p></td>
+                    <td><p>@item.GetPrice()</p></td>
+                    <td><p><a id="remove" href="@Url.Action("Remove", new { BookId = item.BookId})"><i class="fa fa-minus-circle fa-2x" style="color:red;"></i></a></p></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<h4>Всего: @Model.TotalPrice</h4>
+

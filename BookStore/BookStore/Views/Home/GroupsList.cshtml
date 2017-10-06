@@ -1,0 +1,9 @@
+﻿@model IEnumerable<BookStore.Models.Group>
+<ul class="dropdown-menu">
+    @{
+        foreach (var group in Model)
+        {
+            <li>@Html.ActionLink(group.Name, "Group", "Catalog", new { groupId = group.Id }, new { })</li>
+        }
+    }
+</ul>

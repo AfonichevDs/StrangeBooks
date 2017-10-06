@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>
+    <link href="~/Content/font-awesome.css" rel="stylesheet" type="text/css" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+    @Scripts.Render("~/bundles/jqueryval");
+    <script>
+
+    $.validator.methods.range = function (value, element, param) {
+        var globalizedValue = value.replace(",", ".");
+        return this.optional(element) || (globalizedValue >= param[0] && globalizedValue <= param[1]);
+    }
+
+    $.validator.methods.number = function (value, element) {
+        return this.optional(element) || /-?(?:\d+|\d{1,3}(?:[\s\.,]\d{3})+)(?:[\.,]\d+)?$/.test(value);
+    }
+    //Date dd/MM/yyyy
+    $.validator.methods.date = function (value, element) {
+        var date = value.split("/");
+        return this.optional(element) || !/Invalid|NaN/.test(new Date(date[2], date[1], date[0]).toString());
+    }
+    </script>
+</head>
+<body>
+    @using BookStore.Models
+    @{ 
+        int count = Session["Cart"] == null ? 0 : ((ShopCart)Session["Cart"]).BookQuantity();
+    }
+    <div class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="navbar-header col-md-3">
+                    <a href="/Home/Index"><img src="~/Content/Images/SiteImages/HomeIndex/logo.png" alt="logo.png" class="navbar-brand" /></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-items2">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        @using (Html.BeginForm("GlobalSearch", "Home"))
+                        {
+                            <div class="input-group col-md-6" style="margin-top:5px;">
+                                <input type="text" class="form-control" name="name" placeholder="Поиск" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        }
+                        <div class="col-md-6" id="Nav-items1">
+                            @Html.Partial("_LoginPartial")
+                            <!--<ul class="nav navbar-nav">
+                                <li class="menu-item"><a href="#"><i class="fa fa-sign-in fa-lg"></i>Войти</a></li>
+                                <li class="menu-item"><a href="#"><i class="fa fa-user-plus fa-lg"></i>Зарегистрироватся</a></li>
+                            </ul>-->
+                            <ul class="nav navbar-nav navbar-right">
+                                <li id="shop-cart"><a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart fa-2x"></i><span id="shop-count"><b>@count</b></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="collapse navbar-collapse col-md-12" id="nav-items2">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown menu-item down-row-item">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Книги<b class="caret"></b></a>
+                                    @Html.Action("GroupsList", "Home")
+                                </li>
+                                <li class="menu-item down-row-item">@Html.ActionLink("О магазине", "About", "Home")</li>
+                                <li class="menu-item down-row-item">@Html.ActionLink("Доставка", "Delivery", "Home")</li>
+                                <li class="menu-item down-row-item">@Html.ActionLink("Контакты", "Contacts", "Home")</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <div class="row footer-row">
+        <div class="col-md-12">
+            <footer>
+                <div class="footer-inner" style="margin-top:55px;">
+                    <p>
+                        <a href="#" style="margin-right:8px;"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+                        <a href="#" style="margin-right:8px;"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href="#" style="margin-right:8px;"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                        <a href="#" style="margin-right:8px;"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    </p>
+                    <p>No rights reserved. Just training site. 2017</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</body>
+
+</html>

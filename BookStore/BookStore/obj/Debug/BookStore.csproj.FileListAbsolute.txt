@@ -1,0 +1,190 @@
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\csc.exe
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\Microsoft.CSharp.Core.targets
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\System.Collections.Immutable.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\System.Reflection.Metadata.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\vbc.exe
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\VBCSCompiler.exe
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\roslyn\VBCSCompiler.exe.config
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\BookStore.dll.config
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\BookStore.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\BookStore.pdb
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Antlr3.Runtime.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\EntityFramework.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\EntityFramework.SqlServer.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.AspNet.Identity.Core.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.AspNet.Identity.Owin.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.Cookies.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.Facebook.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.Google.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.OAuth.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.Twitter.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Web.Infrastructure.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Newtonsoft.Json.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Owin.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.Helpers.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.Mvc.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.Optimization.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.Razor.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.WebPages.Deployment.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.WebPages.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.WebPages.Razor.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\WebGrease.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.Helpers.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.Mvc.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.Optimization.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.Razor.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.WebPages.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.WebPages.Deployment.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\System.Web.WebPages.Razor.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Antlr3.Runtime.pdb
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Newtonsoft.Json.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\EntityFramework.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\EntityFramework.SqlServer.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.AspNet.Identity.Core.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.AspNet.Identity.Owin.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.Facebook.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.Cookies.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.OAuth.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.Google.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.Twitter.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\System.Web.Helpers.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\System.Web.Mvc.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\System.Web.Optimization.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\System.Web.Razor.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\System.Web.WebPages.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\System.Web.WebPages.Deployment.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\System.Web.WebPages.Razor.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\EntityFramework.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\EntityFramework.SqlServer.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.Owin.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\obj\Debug\BookStore.csprojResolveAssemblyReference.cache
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\obj\Debug\BookStore.dll
+h:\users\red\documents\visual studio 2015\Projects\BookStore\BookStore\obj\Debug\BookStore.pdb
+H:\Users\red\documents\visual studio 2015\Projects\Bookstore\BookStore\obj\Debug\BookStore.Migrations.InitialCreate.resources
+H:\Users\red\documents\visual studio 2015\Projects\Bookstore\BookStore\obj\Debug\BookStore.csproj.GenerateResource.Cache
+H:\Users\red\documents\visual studio 2015\Projects\Bookstore\BookStore\obj\Debug\BookStore.Migrations.MigrateDB.resources
+E:\BookStore\BookStore\bin\roslyn\csc.exe
+E:\BookStore\BookStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BookStore\BookStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BookStore\BookStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BookStore\BookStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BookStore\BookStore\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BookStore\BookStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BookStore\BookStore\bin\roslyn\System.Collections.Immutable.dll
+E:\BookStore\BookStore\bin\roslyn\System.Reflection.Metadata.dll
+E:\BookStore\BookStore\bin\roslyn\vbc.exe
+E:\BookStore\BookStore\bin\roslyn\VBCSCompiler.exe
+E:\BookStore\BookStore\bin\roslyn\VBCSCompiler.exe.config
+E:\BookStore\BookStore\bin\BookStore.dll.config
+E:\BookStore\BookStore\bin\BookStore.dll
+E:\BookStore\BookStore\bin\BookStore.pdb
+E:\BookStore\BookStore\bin\Antlr3.Runtime.dll
+E:\BookStore\BookStore\bin\EntityFramework.dll
+E:\BookStore\BookStore\bin\EntityFramework.SqlServer.dll
+E:\BookStore\BookStore\bin\Microsoft.AspNet.Identity.Core.dll
+E:\BookStore\BookStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\BookStore\BookStore\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\BookStore\BookStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BookStore\BookStore\bin\Microsoft.Owin.dll
+E:\BookStore\BookStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.Cookies.dll
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.dll
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.Facebook.dll
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.Google.dll
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.OAuth.dll
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.Twitter.dll
+E:\BookStore\BookStore\bin\Microsoft.Web.Infrastructure.dll
+E:\BookStore\BookStore\bin\Newtonsoft.Json.dll
+E:\BookStore\BookStore\bin\Owin.dll
+E:\BookStore\BookStore\bin\System.Web.Helpers.dll
+E:\BookStore\BookStore\bin\System.Web.Mvc.dll
+E:\BookStore\BookStore\bin\System.Web.Optimization.dll
+E:\BookStore\BookStore\bin\System.Web.Razor.dll
+E:\BookStore\BookStore\bin\System.Web.WebPages.Deployment.dll
+E:\BookStore\BookStore\bin\System.Web.WebPages.dll
+E:\BookStore\BookStore\bin\System.Web.WebPages.Razor.dll
+E:\BookStore\BookStore\bin\WebGrease.dll
+E:\BookStore\BookStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BookStore\BookStore\bin\System.Web.Helpers.xml
+E:\BookStore\BookStore\bin\System.Web.Mvc.xml
+E:\BookStore\BookStore\bin\System.Web.Optimization.xml
+E:\BookStore\BookStore\bin\System.Web.Razor.xml
+E:\BookStore\BookStore\bin\System.Web.WebPages.xml
+E:\BookStore\BookStore\bin\System.Web.WebPages.Deployment.xml
+E:\BookStore\BookStore\bin\System.Web.WebPages.Razor.xml
+E:\BookStore\BookStore\bin\Antlr3.Runtime.pdb
+E:\BookStore\BookStore\bin\Newtonsoft.Json.xml
+E:\BookStore\BookStore\bin\EntityFramework.xml
+E:\BookStore\BookStore\bin\EntityFramework.SqlServer.xml
+E:\BookStore\BookStore\bin\Microsoft.AspNet.Identity.Core.xml
+E:\BookStore\BookStore\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\BookStore\BookStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\BookStore\BookStore\bin\Microsoft.Owin.xml
+E:\BookStore\BookStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.xml
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.Facebook.xml
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.Cookies.xml
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.OAuth.xml
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.Google.xml
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.Twitter.xml
+E:\BookStore\BookStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\BookStore\BookStore\bin\ru\System.Web.Helpers.resources.dll
+E:\BookStore\BookStore\bin\ru\System.Web.Mvc.resources.dll
+E:\BookStore\BookStore\bin\ru\System.Web.Optimization.resources.dll
+E:\BookStore\BookStore\bin\ru\System.Web.Razor.resources.dll
+E:\BookStore\BookStore\bin\ru\System.Web.WebPages.resources.dll
+E:\BookStore\BookStore\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\BookStore\BookStore\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\BookStore\BookStore\bin\ru\EntityFramework.resources.dll
+E:\BookStore\BookStore\bin\ru\EntityFramework.SqlServer.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.Owin.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\BookStore\BookStore\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\BookStore\BookStore\obj\Debug\BookStore.csprojResolveAssemblyReference.cache
+E:\BookStore\BookStore\obj\Debug\BookStore.Migrations.InitialCreate.resources
+E:\BookStore\BookStore\obj\Debug\BookStore.Migrations.MigrateDB.resources
+E:\BookStore\BookStore\obj\Debug\BookStore.csproj.GenerateResource.Cache
+E:\BookStore\BookStore\obj\Debug\BookStore.dll
+E:\BookStore\BookStore\obj\Debug\BookStore.pdb
+E:\BookStore\BookStore\obj\Debug\BookStore.Migrations.MigrateDb1.resources
+E:\BookStore\BookStore\obj\Debug\BookStore.Migrations.MigrateDb2.resources
+E:\BookStore\BookStore\obj\Debug\BookStore.Migrations.MigrateDb3.resources
+E:\BookStore\BookStore\obj\Debug\BookStore.Migrations.MigrateDb4.resources
+H:\Users\red\Documents\Visual Studio 2015\Projects\BookStore\BookStore\obj\Debug\BookStore.Migrations.MigrateDb1.resources
+H:\Users\red\Documents\Visual Studio 2015\Projects\BookStore\BookStore\obj\Debug\BookStore.Migrations.MigrateDb2.resources
+H:\Users\red\Documents\Visual Studio 2015\Projects\BookStore\BookStore\obj\Debug\BookStore.Migrations.MigrateDb3.resources
+H:\Users\red\Documents\Visual Studio 2015\Projects\BookStore\BookStore\obj\Debug\BookStore.Migrations.MigrateDb4.resources

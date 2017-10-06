@@ -1,0 +1,88 @@
+﻿@model BookStore.Models.BookViewModel
+@using Microsoft.AspNet.Identity;
+@{
+    ViewBag.Title = "Book";
+}
+
+<script src="~/Scripts/bookScript.js"></script>
+<div class="row">
+    <div class="col-md-12">
+        <div class="book-main">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 book-image">
+                    <p><img src="@Url.Content(Model.Book.ImagePath)" alt="book-image" id="book-cover"/></p>
+                </div>
+                <div class="col-md-4 book-info">
+                    <div class="desc-p">
+                        <p>Название: @Model.Book.Name</p>
+                    </div>
+                    <div class="desc-p">
+                        <p>Автор: @Model.Book.Author</p>
+                    </div>
+                    <div class="desc-p">
+                        <p>Цена: @Model.Book.Price</p>
+                    </div>
+                    <div class="desc-p">
+                        <p>Жанр: @Model.Book.Category.Name</p>
+                    </div>
+                    <div class="row">
+                        <a class="btn btn-warning" id="add-btn" role="button" href="@Url.Action("AddToCart", "Cart", new { BookId = Model.Book.Id})"> Добавить в корзину <i class="fa fa-shopping-cart fa-lg"></i></a>
+                        <label id="add-message"><i class="fa fa-check fa-lg"></i> +1</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="book-description">
+                        <p>@Model.Book.Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h3>Похожие книги</h3>
+                    <div class="books-list" id="sim-books">
+                        <table>
+                            <tr>
+                                @for (int i = 0; i < Model.SimilarBooks.Count; i++)
+                                {
+                                    <td>
+                                        <div class="book-item">
+                                            <a href="@Url.Action("Book", new { id = Model.SimilarBooks[i].Id})"><img src="@Url.Content(Model.SimilarBooks[i].ImagePath)" alt="book-image" class="book-img" /></a>
+                                            <p><a href="@Url.Action("Book", new { id = Model.SimilarBooks[i].Id})">@Model.SimilarBooks[i].Name</a></p>
+                                            <p class="book-author">@Model.SimilarBooks[i].Author</p>
+                                        </div>
+                                    </td>
+                                    if (i == 16) { break; }
+                                }
+                            </tr>
+                        </table>
+                    </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="comment-section">
+                        <div class="create-comment">
+                            @using (Html.BeginForm("AddComment","Catalog", FormMethod.Post))
+                            {
+                                @Html.Hidden("BookId", Model.Book.Id)
+                                @Html.Hidden("UserId", User.Identity.GetUserId())
+                                @Html.TextArea("CreatedComment", new { id = "CommentArea", minlength = 5 })
+                                <button type="submit" class="btn btn-default" id="comment-button" onclick="">Оставить отзыв</button>
+                            }
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="comments" id="comms">
+                                    @Html.Action("GetComments", new { BookId = Model.Book.Id })
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+    </div>
+</div>
+</div>
+

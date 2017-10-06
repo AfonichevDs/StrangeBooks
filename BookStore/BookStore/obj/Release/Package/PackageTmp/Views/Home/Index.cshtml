@@ -1,0 +1,109 @@
+﻿@model BookStore.Models.HomeIndexModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="carousel slide" id="carousel1">
+    <ol class="carousel-indicators">
+        <li class="active" data-target="#carousel1" data-slide-to="0"></li>
+        <li data-target="#carousel1" data-slide-to="1"></li>
+        <li data-target="#carousel1" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="@Url.Content(Model.Carousels[0].ImagePath)" alt="carousel-image"/>
+            <div class="carousel-caption">
+                <h3>@Model.Carousels[0].Header</h3>
+                <p>@Model.Carousels[0].Caption</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="@Url.Content(Model.Carousels[1].ImagePath)" class="carousel-image" />
+            <div class="carousel-caption">
+                <h3>@Model.Carousels[1].Header</h3>
+                <p>@Model.Carousels[1].Caption</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="@Url.Content(Model.Carousels[2].ImagePath)" class="carousel-image" />
+            <div class="carousel-caption">
+                <h3>@Model.Carousels[2].Header</h3>
+                <p>@Model.Carousels[2].Caption</p>
+            </div>
+        </div>
+    </div>
+    <a href="#carousel1" class="left carousel-control" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#carousel1" class="right carousel-control" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<h3 class="header">Новинки</h3>
+<div class="books-list" id="last-books">
+    <table>
+        <tr>
+            @for (int i = 0; i < 8; i++)
+            {
+                <td>
+                    <div class="book-item">
+                        <a href="@Url.Action("Book", "Catalog", new { id = Model.LastBooks[i].Id })"><img src="@Url.Content(Model.LastBooks[i].ImagePath)" alt="book_cover" class="book-img" /></a>
+                        <p><a href="@Url.Action("Book", "Catalog", new { id = Model.LastBooks[i].Id })">"@Model.LastBooks[i].Name"</a></p>
+                        <p class="book-author">@Model.LastBooks[i].Author</p>
+                    </div>
+                </td>
+            }
+        </tr>
+        <tr>
+            @for (int i = 8; i < Model.LastBooks.Count(); i++)
+            {
+                if (i == 16)
+                {
+                    break;
+                }
+                <td>
+                    <div class="book-item">
+                        <a href="@Url.Action("Book", "Catalog", new { id = Model.LastBooks[i].Id })"><img src="@Url.Content(Model.LastBooks[i].ImagePath)" alt="book_cover" class="book-img" /></a>
+                        <p><a href="@Url.Action("Book", "Catalog", new { id = Model.LastBooks[i].Id })">@Model.LastBooks[i].Name</a></p>
+                        <p class="book-author">@Model.LastBooks[i].Author</p>
+                    </div>
+                </td>
+            }
+        </tr>
+    </table>
+</div>
+
+<h3 class="header">Популярный жанр: Художественная литература</h3>
+<div class="books-list" id="best-books">
+    <table>
+        <tr>
+            @for (int i = 0; i < 8; i++)
+            {
+                <td>
+                    <div class="book-item">
+                        <a href="@Url.Action("Book", "Catalog", new { id = Model.BestBooks[i].Id })"><img src="@Url.Content(Model.BestBooks[i].ImagePath)" alt="book_cover" class="book-img" /></a>
+                        <p><a href="@Url.Action("Book", "Catalog", new { id = Model.BestBooks[i].Id })">@Model.BestBooks[i].Name</a></p>
+                        <p class="book-author">@Model.BestBooks[i].Author</p>
+                    </div>
+                </td>
+            }
+        </tr>
+        <tr>
+            @for (int i = 8; i < Model.BestBooks.Count(); i++)
+            {
+                if (i == 16)
+                {
+                    break;
+                }
+                <td>
+                    <div class="book-item">
+                        <a href="@Url.Action("Book", "Catalog", new { id = Model.BestBooks[i].Id })"><img src="@Url.Content(Model.BestBooks[i].ImagePath)" alt="book_cover" class="book-img" /></a>
+                        <p><a href="@Url.Action("Book", "Catalog", new { id = Model.BestBooks[i].Id })">@Model.BestBooks[i].Name</a></p>
+                        <p class="book-author">@Model.BestBooks[i].Author</p>
+                    </div>
+                </td>
+            }
+        </tr>
+    </table>
+</div>

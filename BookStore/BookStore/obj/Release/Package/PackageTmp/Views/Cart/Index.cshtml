@@ -1,0 +1,18 @@
+﻿@model BookStore.Models.CartViewModel
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/orderCheck.js"></script>
+<div id="orders-table">
+@Html.Action("OrderItems")
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <a class="btn btn-warning" href="@Model.ReturnUrl" id="return">Назад</a>
+    </div>
+    <div class="col-md-6">
+        <a class="btn btn-default" href="@Url.Action("CreateOrder")" id="create-order">Оформить заказ</a>
+    </div>
+</div>
+
+
